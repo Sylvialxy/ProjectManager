@@ -38,7 +38,15 @@ const NAV_ITEMS: { key: SectionKey; label: string; icon: React.ReactNode }[] = [
 ];
 
 export default function Home() {
-  const [section, setSection] = useState<SectionKey>("dashboard");
+  const [section, setSection] = useState<SectionKey>(() => {
+    const saved = localStorage.getItem("pm-section") as SectionKey | null;
+    return saved && NAV_ITEMS.some((n) => n.key === saved) ? saved : "dashboard";
+  });
+
+  function handleSetSection(key: SectionKey) {
+    setSection(key);
+    localStorage.setItem("pm-section", key);
+  }
   const [quickAddModalId, setQuickAddModalId] = useState<string | null>(null);
   const data = useDataStore((s) => s.data);
   const isLoading = useDataStore((s) => s.isLoading);
@@ -97,7 +105,7 @@ export default function Home() {
                 icon={icon}
                 label={label}
                 badge={key === "demandPool" ? poolCount : undefined}
-                onClick={() => setSection(key)}
+                onClick={() => handleSetSection(key)}
               />
             ))}
           </nav>

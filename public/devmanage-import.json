@@ -1,0 +1,2915 @@
+{
+  "directions": [
+    "增长",
+    "安全",
+    "公共模块",
+    "平台",
+    "水滴",
+    "SSL"
+  ],
+  "members": [
+    {
+      "id": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+      "name": "薛立恒",
+      "role": "iOS"
+    },
+    {
+      "id": "13F60E13-401B-4B7F-A0A0-935EEB94529E",
+      "name": "陈耀",
+      "role": "iOS"
+    },
+    {
+      "id": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+      "name": "陈剑强",
+      "role": "iOS"
+    },
+    {
+      "id": "2C89CF70-60A1-4925-8AF5-593F55207C84",
+      "name": "郑齐滇",
+      "role": "iOS"
+    },
+    {
+      "id": "D179544C-7C53-4AFF-B9FD-F2A62D4FDFF1",
+      "name": "夏晨阳",
+      "role": "iOS"
+    },
+    {
+      "id": "AED1A4AE-8FE1-4042-A2F8-31607C95F3A6",
+      "name": "陈星辰",
+      "role": "iOS"
+    },
+    {
+      "id": "D50A2A33-417F-48EC-AF6A-47C7437DA8EE",
+      "name": "王文震",
+      "role": "iOS"
+    },
+    {
+      "id": "267ECF6A-A53B-45EB-A989-7F59E564AEC2",
+      "name": "赵俞剑",
+      "role": "Android"
+    },
+    {
+      "id": "02488DF7-A608-4635-81F6-9D485D9943D6",
+      "name": "李敏杰",
+      "role": "Android"
+    },
+    {
+      "id": "E26E4ADC-351E-4489-99E9-CAD989AE95CE",
+      "name": "朱成安",
+      "role": "Android"
+    },
+    {
+      "id": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+      "name": "蔡召炜",
+      "role": "Android"
+    },
+    {
+      "id": "AB4F67B4-3C46-43FD-9A06-5448683C7C9C",
+      "name": "郑子",
+      "role": "Android"
+    },
+    {
+      "id": "AB110749-6753-43C1-9FCF-63ABDBDC96C5",
+      "name": "吕心胜",
+      "role": "Android"
+    },
+    {
+      "id": "476B3DB7-1340-4C2E-89F5-03E7E5555E9D",
+      "name": "阮严冬",
+      "role": "Android"
+    },
+    {
+      "id": "20D58C11-84A9-4C9B-B1D4-59468A4BED71",
+      "name": "马彪",
+      "role": "Android"
+    },
+    {
+      "id": "CBD9A71F-3F45-4727-8876-AECF9ED62405",
+      "name": "闫康",
+      "role": "Android"
+    },
+    {
+      "id": "4655117D-8BD8-4256-B16F-6A5AC0DA304E",
+      "name": "魏晓蕾",
+      "role": "Android"
+    },
+    {
+      "id": "E1FF2BDB-7C8A-4129-8FA0-6787161BA6D8",
+      "name": "付麟惠",
+      "role": "iOS"
+    }
+  ],
+  "projects": [
+    {
+      "id": "F7112746-86F2-495F-8BD0-6C878034DC43",
+      "name": "【全端】字体和适配问题",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "公共模块",
+      "startDate": "2026-04-19",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-04-19",
+      "workEndDate": "2026-04-21",
+      "workloadDays": 3.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "F7112746-86F2-495F-8BD0-6C878034DC43-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-04-19",
+          "endDate": "2026-04-19",
+          "assignments": []
+        },
+        {
+          "id": "F7112746-86F2-495F-8BD0-6C878034DC43-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-04-19",
+          "endDate": "2026-04-19",
+          "assignments": []
+        },
+        {
+          "id": "F7112746-86F2-495F-8BD0-6C878034DC43-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-04-19",
+          "endDate": "2026-04-21",
+          "assignments": [
+            {
+              "id": "275D4190-DA0C-4F8B-848B-33B1274BE82F",
+              "memberId": "13F60E13-401B-4B7F-A0A0-935EEB94529E",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            },
+            {
+              "id": "8A30BACE-EA53-4017-81D1-4080421F994B",
+              "memberId": "476B3DB7-1340-4C2E-89F5-03E7E5555E9D",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "F7112746-86F2-495F-8BD0-6C878034DC43-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-04-21",
+          "endDate": "2026-04-21",
+          "assignments": []
+        },
+        {
+          "id": "F7112746-86F2-495F-8BD0-6C878034DC43-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-04-21",
+          "endDate": "2026-05-20",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "C0FC3EF9-67C9-4C4B-A1E3-BEE75EEE65FF",
+      "name": "安卓dart异常治理",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-13",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-05-13",
+      "workEndDate": "2026-05-13",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "C0FC3EF9-67C9-4C4B-A1E3-BEE75EEE65FF-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-13",
+          "assignments": []
+        },
+        {
+          "id": "C0FC3EF9-67C9-4C4B-A1E3-BEE75EEE65FF-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-13",
+          "assignments": []
+        },
+        {
+          "id": "C0FC3EF9-67C9-4C4B-A1E3-BEE75EEE65FF-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-13",
+          "assignments": [
+            {
+              "id": "BD75C02B-61A6-4D54-AFD3-350FB1B8E5CA",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "DD159F76-E649-4BF3-B013-94A94A9CDB61",
+      "name": "侧边栏补刀需求",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-10",
+      "deliveryDate": "2026-06-03",
+      "workloadDate": "2026-05-10",
+      "workEndDate": "2026-05-13",
+      "workloadDays": 6.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "DD159F76-E649-4BF3-B013-94A94A9CDB61-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-10",
+          "assignments": []
+        },
+        {
+          "id": "DD159F76-E649-4BF3-B013-94A94A9CDB61-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-10",
+          "assignments": []
+        },
+        {
+          "id": "DD159F76-E649-4BF3-B013-94A94A9CDB61-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-13",
+          "assignments": [
+            {
+              "id": "8850347C-F3F1-4D88-81D2-D165539E6904",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            },
+            {
+              "id": "89657422-AD25-4A8C-AFBD-4C818024385A",
+              "memberId": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "6020F483-8E97-42D6-BB0D-108E68C10806",
+      "name": "SSL出行首页优化",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-06-17",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-06-17",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "6020F483-8E97-42D6-BB0D-108E68C10806-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "B76A7B64-ED02-4582-9A17-C7DC739E475D",
+      "name": "LiveActivity支持水滴",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "水滴",
+      "startDate": "2026-05-07",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-05-07",
+      "workEndDate": "2026-05-10",
+      "workloadDays": 4.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "B76A7B64-ED02-4582-9A17-C7DC739E475D-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-07",
+          "assignments": []
+        },
+        {
+          "id": "B76A7B64-ED02-4582-9A17-C7DC739E475D-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-07",
+          "assignments": []
+        },
+        {
+          "id": "B76A7B64-ED02-4582-9A17-C7DC739E475D-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-10",
+          "assignments": [
+            {
+              "id": "AB9CE91A-3851-4F1F-96E7-6A337D05A19C",
+              "memberId": "20D58C11-84A9-4C9B-B1D4-59468A4BED71",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            },
+            {
+              "id": "FDA861C3-0F99-4919-AC9C-202ADD497E62",
+              "memberId": "D50A2A33-417F-48EC-AF6A-47C7437DA8EE",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "181AF7D5-CBE2-4657-B0A8-87F08BAFB788",
+      "name": "首页Flutter崩溃优化",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-11",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-05-11",
+      "workEndDate": "2026-05-11",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "181AF7D5-CBE2-4657-B0A8-87F08BAFB788-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "181AF7D5-CBE2-4657-B0A8-87F08BAFB788-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "181AF7D5-CBE2-4657-B0A8-87F08BAFB788-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": [
+            {
+              "id": "22C2FA04-1274-4366-B7C3-1CD17A288A8E",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "1DAB300D-18C8-48D4-8922-EB5EAE76821A",
+      "name": "Push SDK能力统一建设需求沟通",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "1DAB300D-18C8-48D4-8922-EB5EAE76821A-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "1DAB300D-18C8-48D4-8922-EB5EAE76821A-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "483FC321-F01D-440B-8EF4-F071DF47F17F",
+      "name": "水滴MX开国",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "483FC321-F01D-440B-8EF4-F071DF47F17F-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "870B3502-6045-4EB7-B487-99C98CD128C9",
+      "name": "巴西成客端首页支持编辑上车点",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-04-09",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-04-09",
+      "workEndDate": "2026-05-05",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "870B3502-6045-4EB7-B487-99C98CD128C9-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-04-09",
+          "endDate": "2026-04-09",
+          "assignments": []
+        },
+        {
+          "id": "870B3502-6045-4EB7-B487-99C98CD128C9-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-04-09",
+          "endDate": "2026-04-09",
+          "assignments": []
+        },
+        {
+          "id": "870B3502-6045-4EB7-B487-99C98CD128C9-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-04-09",
+          "endDate": "2026-05-05",
+          "assignments": [
+            {
+              "id": "E89F2BFF-9F5F-42B8-A7CC-9965A913EB42",
+              "memberId": "267ECF6A-A53B-45EB-A989-7F59E564AEC2",
+              "plannedDays": 13.0,
+              "actualDays": 0
+            },
+            {
+              "id": "054D725F-1004-4486-8460-11DC1905CD5E",
+              "memberId": "D50A2A33-417F-48EC-AF6A-47C7437DA8EE",
+              "plannedDays": 13.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "870B3502-6045-4EB7-B487-99C98CD128C9-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-05",
+          "endDate": "2026-05-05",
+          "assignments": [
+            {
+              "id": "E89F2BFF-9F5F-42B8-A7CC-9965A913EB42-int",
+              "memberId": "267ECF6A-A53B-45EB-A989-7F59E564AEC2",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "054D725F-1004-4486-8460-11DC1905CD5E-int",
+              "memberId": "D50A2A33-417F-48EC-AF6A-47C7437DA8EE",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "870B3502-6045-4EB7-B487-99C98CD128C9-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-05",
+          "endDate": "2026-05-20",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "F3CF9661-A478-4BE3-9EC3-18CC511D641B",
+      "name": "PPS乘客感知需求",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-17",
+      "deliveryDate": "2026-07-01",
+      "workloadDate": "2026-05-17",
+      "workEndDate": "2026-05-24",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "预计每人3天投入 0518开始开发，0521开始联调，0525提测",
+      "version": "0702",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-650182?backUrl=/requirement/list?filterDirId=600",
+      "phases": [
+        {
+          "id": "F3CF9661-A478-4BE3-9EC3-18CC511D641B-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-17",
+          "assignments": []
+        },
+        {
+          "id": "F3CF9661-A478-4BE3-9EC3-18CC511D641B-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-17",
+          "assignments": []
+        },
+        {
+          "id": "F3CF9661-A478-4BE3-9EC3-18CC511D641B-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-24",
+          "assignments": [
+            {
+              "id": "A7BB73FD-A479-4C70-B471-555CAEC61DB3",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 1.5,
+              "actualDays": 0
+            },
+            {
+              "id": "42C15C42-8A02-4DF4-9E3E-E08940F72C54",
+              "memberId": "D179544C-7C53-4AFF-B9FD-F2A62D4FDFF1",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "54571E18-2153-4EF9-9596-8529BA970DB0",
+      "name": "H5大盘建设",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-13",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-05-13",
+      "workEndDate": "2026-05-14",
+      "workloadDays": 2.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "54571E18-2153-4EF9-9596-8529BA970DB0-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-13",
+          "assignments": []
+        },
+        {
+          "id": "54571E18-2153-4EF9-9596-8529BA970DB0-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-13",
+          "assignments": []
+        },
+        {
+          "id": "54571E18-2153-4EF9-9596-8529BA970DB0-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-14",
+          "assignments": [
+            {
+              "id": "508A8D44-8CBA-4575-B4FD-47C6A1D78AF5",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "06C26182-AEEA-4096-96EE-AC31DA0D69DD",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "14AC55AF-A7A3-4F65-A6C4-1D907EBCCA2E",
+      "name": "金融H5键盘问题",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-18",
+      "deliveryDate": "2026-06-03",
+      "workloadDate": "2026-05-18",
+      "workEndDate": "2026-05-19",
+      "workloadDays": 4.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "14AC55AF-A7A3-4F65-A6C4-1D907EBCCA2E-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-18",
+          "assignments": []
+        },
+        {
+          "id": "14AC55AF-A7A3-4F65-A6C4-1D907EBCCA2E-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-18",
+          "assignments": []
+        },
+        {
+          "id": "14AC55AF-A7A3-4F65-A6C4-1D907EBCCA2E-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-19",
+          "assignments": [
+            {
+              "id": "EE6EE6C2-05AB-4C48-9F45-28C66979D78F",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "EF759397-D46A-45AF-8134-9D0E76EA3A57",
+      "name": "侧边栏&设置页支持DVM",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "EF759397-D46A-45AF-8134-9D0E76EA3A57-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "EF759397-D46A-45AF-8134-9D0E76EA3A57-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "EF759397-D46A-45AF-8134-9D0E76EA3A57-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-22",
+          "assignments": [
+            {
+              "id": "EE5F03DD-30AD-4B81-BF47-1532E84ADC80",
+              "memberId": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "EA290082-43F6-4B98-9D14-855C1E6DF8B9",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "A609C538-981F-49A5-A1E8-B5E4A8B24C97",
+      "name": "平台券列表优化",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-05",
+      "deliveryDate": "2026-06-03",
+      "workloadDate": "2026-05-05",
+      "workEndDate": "2026-05-10",
+      "workloadDays": 5.0,
+      "description": "",
+      "note": "",
+      "version": "0618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "A609C538-981F-49A5-A1E8-B5E4A8B24C97-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-05",
+          "endDate": "2026-05-05",
+          "assignments": []
+        },
+        {
+          "id": "A609C538-981F-49A5-A1E8-B5E4A8B24C97-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-05",
+          "endDate": "2026-05-05",
+          "assignments": []
+        },
+        {
+          "id": "A609C538-981F-49A5-A1E8-B5E4A8B24C97-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-05",
+          "endDate": "2026-05-10",
+          "assignments": [
+            {
+              "id": "71C8731A-6D49-43F4-98CF-073E3C8A82E7",
+              "memberId": "2C89CF70-60A1-4925-8AF5-593F55207C84",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "D83837AA-7807-4C7A-9CE0-2C9E23385372",
+              "memberId": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "460A9B0B-165F-4BAD-BEFD-096F8A24A5AD",
+      "name": "OwlMode乘客SA页增加气泡引导",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "安全",
+      "startDate": "2026-05-07",
+      "deliveryDate": "2026-06-03",
+      "workloadDate": "2026-05-07",
+      "workEndDate": "2026-05-10",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-658631?backUrl=/workbench/requirement",
+      "phases": [
+        {
+          "id": "460A9B0B-165F-4BAD-BEFD-096F8A24A5AD-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-07",
+          "assignments": []
+        },
+        {
+          "id": "460A9B0B-165F-4BAD-BEFD-096F8A24A5AD-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-07",
+          "assignments": []
+        },
+        {
+          "id": "460A9B0B-165F-4BAD-BEFD-096F8A24A5AD-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-10",
+          "assignments": [
+            {
+              "id": "7EA1EE82-39D6-439E-916F-460739AFC7C5",
+              "memberId": "D179544C-7C53-4AFF-B9FD-F2A62D4FDFF1",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "460A9B0B-165F-4BAD-BEFD-096F8A24A5AD-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-10",
+          "assignments": [
+            {
+              "id": "7EA1EE82-39D6-439E-916F-460739AFC7C5-int",
+              "memberId": "D179544C-7C53-4AFF-B9FD-F2A62D4FDFF1",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "C25213EE-4F50-4362-80C4-EA89A70F1C72",
+      "name": "SA首页优化",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-20",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "C25213EE-4F50-4362-80C4-EA89A70F1C72-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "9E1AE938-786C-444D-8DEE-7AF7ED050D9E",
+      "name": "水滴支持DVM",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "9E1AE938-786C-444D-8DEE-7AF7ED050D9E-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "9E1AE938-786C-444D-8DEE-7AF7ED050D9E-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "9E1AE938-786C-444D-8DEE-7AF7ED050D9E-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-22",
+          "assignments": [
+            {
+              "id": "649CE11A-F163-497D-8C47-8F3FE6970BB4",
+              "memberId": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "DFBB9EC8-0583-473D-9845-58FD924E0951",
+      "name": "订单页接入预约单",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-17",
+      "deliveryDate": "2026-06-17",
+      "workloadDate": "2026-05-17",
+      "workEndDate": "2026-05-20",
+      "workloadDays": 4.0,
+      "description": "",
+      "note": "",
+      "version": "0618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "DFBB9EC8-0583-473D-9845-58FD924E0951-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-17",
+          "assignments": []
+        },
+        {
+          "id": "DFBB9EC8-0583-473D-9845-58FD924E0951-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-17",
+          "assignments": []
+        },
+        {
+          "id": "DFBB9EC8-0583-473D-9845-58FD924E0951-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-20",
+          "assignments": [
+            {
+              "id": "32F1F376-26B4-44FF-9426-60FEE5DFEA9F",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            },
+            {
+              "id": "7ED04DDD-46D6-4FE3-9F3B-28EB739104CD",
+              "memberId": "AB4F67B4-3C46-43FD-9A06-5448683C7C9C",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "3699748B-D074-4EDE-B32C-BBF7498C5C5E",
+      "name": "SA酒旅SDK升级",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "3699748B-D074-4EDE-B32C-BBF7498C5C5E-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "832FA90B-8518-4160-AF33-FA6862F90948",
+      "name": "H5安全漏洞修复",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-20",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "832FA90B-8518-4160-AF33-FA6862F90948-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "1AEA76C2-3429-4393-96E3-986DB681EDF2",
+      "name": "重复发单拦截二期-牵引预约单",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-04-29",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-04-29",
+      "workEndDate": "2026-05-17",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "1AEA76C2-3429-4393-96E3-986DB681EDF2-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-04-29",
+          "endDate": "2026-04-29",
+          "assignments": []
+        },
+        {
+          "id": "1AEA76C2-3429-4393-96E3-986DB681EDF2-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-04-29",
+          "endDate": "2026-04-29",
+          "assignments": []
+        },
+        {
+          "id": "1AEA76C2-3429-4393-96E3-986DB681EDF2-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-04-29",
+          "endDate": "2026-05-17",
+          "assignments": [
+            {
+              "id": "B2EAE52A-D899-46E9-B163-94510D1BEB23",
+              "memberId": "20D58C11-84A9-4C9B-B1D4-59468A4BED71",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1",
+      "name": "广告H1需求埋点需求",
+      "demandType": "业务需求",
+      "priority": "P0",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-08",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-673799",
+      "phases": [
+        {
+          "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": [
+            {
+              "id": "FD37B038-EA3E-4810-8D2A-5D41B2153B98",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "CD5512F3-57EB-4BDA-B9E3-FD320F98D22C",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-20",
+          "assignments": []
+        },
+        {
+          "id": "27A453B1-041F-443D-ABC0-37A0DC2E4CE1-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-20",
+          "endDate": "2026-05-20",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "95030FCE-61D8-40E2-BEAC-6E1D29857C93",
+      "name": "Flutter巴西首页地图镂空",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-17",
+      "deliveryDate": "2026-06-03",
+      "workloadDate": "2026-05-17",
+      "workEndDate": "2026-05-19",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "95030FCE-61D8-40E2-BEAC-6E1D29857C93-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-17",
+          "assignments": []
+        },
+        {
+          "id": "95030FCE-61D8-40E2-BEAC-6E1D29857C93-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-17",
+          "assignments": []
+        },
+        {
+          "id": "95030FCE-61D8-40E2-BEAC-6E1D29857C93-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-17",
+          "endDate": "2026-05-19",
+          "assignments": [
+            {
+              "id": "E72C6977-81E1-4085-A7A5-8A566E494F7A",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            },
+            {
+              "id": "10D17FB3-1B38-462E-9101-FC6294AD535D",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 3.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "39296768-3BC0-46E4-B3E2-8EBBF60AFF26",
+      "name": "天降/余券提醒增加动效",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-07",
+      "deliveryDate": "2026-06-17",
+      "workloadDate": "2026-05-07",
+      "workEndDate": "2026-05-21",
+      "workloadDays": 7.0,
+      "description": "",
+      "note": "",
+      "version": "0618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "39296768-3BC0-46E4-B3E2-8EBBF60AFF26-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-07",
+          "assignments": []
+        },
+        {
+          "id": "39296768-3BC0-46E4-B3E2-8EBBF60AFF26-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-07",
+          "assignments": []
+        },
+        {
+          "id": "39296768-3BC0-46E4-B3E2-8EBBF60AFF26-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-07",
+          "endDate": "2026-05-21",
+          "assignments": [
+            {
+              "id": "579679A2-2EA1-40A7-A61C-F5B68D42BB12",
+              "memberId": "476B3DB7-1340-4C2E-89F5-03E7E5555E9D",
+              "plannedDays": 5.0,
+              "actualDays": 0
+            },
+            {
+              "id": "AA292017-9A98-4205-9560-3E2192706C01",
+              "memberId": "AED1A4AE-8FE1-4042-A2F8-31607C95F3A6",
+              "plannedDays": 5.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "52895642-D96A-495E-B644-CEEDD22F7D9E",
+      "name": "SSL-SA一致性设计",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "公共模块",
+      "startDate": "2026-05-10",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-05-10",
+      "workEndDate": "2026-05-11",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "52895642-D96A-495E-B644-CEEDD22F7D9E-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-10",
+          "assignments": []
+        },
+        {
+          "id": "52895642-D96A-495E-B644-CEEDD22F7D9E-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-10",
+          "assignments": []
+        },
+        {
+          "id": "52895642-D96A-495E-B644-CEEDD22F7D9E-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-10",
+          "endDate": "2026-05-11",
+          "assignments": [
+            {
+              "id": "4EC597F3-532E-4F1B-8CE7-AE2EC1E37D6B",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "B89B7BAD-94D8-4F5B-BD7C-8E3F756A7FB7",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "055BDEEF-0EB6-4832-90C9-49FF147C2DCF",
+              "memberId": "476B3DB7-1340-4C2E-89F5-03E7E5555E9D",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "0CF0E2E3-4B89-4E4F-8E40-0787E06C1208",
+              "memberId": "13F60E13-401B-4B7F-A0A0-935EEB94529E",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "52895642-D96A-495E-B644-CEEDD22F7D9E-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "52895642-D96A-495E-B644-CEEDD22F7D9E-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-20",
+          "assignments": []
+        },
+        {
+          "id": "52895642-D96A-495E-B644-CEEDD22F7D9E-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-20",
+          "endDate": "2026-05-20",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "53575624-AA4F-4102-88FB-0D386F451067",
+      "name": "巴西机房迁移分流Key",
+      "demandType": "技术需求",
+      "priority": "P0",
+      "businessDirection": null,
+      "startDate": "2026-04-28",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-04-28",
+      "workEndDate": "2026-05-20",
+      "workloadDays": 2.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "https://ddp.intra.xiaojukeji.com/issue/story/T-IBT-587262",
+      "phases": [
+        {
+          "id": "53575624-AA4F-4102-88FB-0D386F451067-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-04-28",
+          "endDate": "2026-04-28",
+          "assignments": []
+        },
+        {
+          "id": "53575624-AA4F-4102-88FB-0D386F451067-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-04-28",
+          "endDate": "2026-04-28",
+          "assignments": []
+        },
+        {
+          "id": "53575624-AA4F-4102-88FB-0D386F451067-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-04-28",
+          "endDate": "2026-05-20",
+          "assignments": [
+            {
+              "id": "81E29612-200D-4CA7-AD99-D7DE5AB59C95",
+              "memberId": "02488DF7-A608-4635-81F6-9D485D9943D6",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "4BCECCC8-97EB-4537-923A-AECE91AEC56B",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "53575624-AA4F-4102-88FB-0D386F451067-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-20",
+          "endDate": "2026-05-20",
+          "assignments": []
+        },
+        {
+          "id": "53575624-AA4F-4102-88FB-0D386F451067-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-20",
+          "endDate": "2026-05-20",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "0EFC72EA-C8C7-4ADA-BDDA-236EC99FECE1",
+      "name": "行程分享负向体验改善",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "安全",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-07-01",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "预计522开始投入，iOS：8天开发，5天联调，安卓：8天，5天联调",
+      "version": "0702",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-591804",
+      "phases": [
+        {
+          "id": "0EFC72EA-C8C7-4ADA-BDDA-236EC99FECE1-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "0EFC72EA-C8C7-4ADA-BDDA-236EC99FECE1-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "0EFC72EA-C8C7-4ADA-BDDA-236EC99FECE1-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-22",
+          "assignments": [
+            {
+              "id": "A2264BCA-3EF1-4391-8DAE-CE30B9541E13",
+              "memberId": "D179544C-7C53-4AFF-B9FD-F2A62D4FDFF1",
+              "plannedDays": 8.0,
+              "actualDays": 0
+            },
+            {
+              "id": "729518E5-E145-4452-90A4-DAFB7462B7BF",
+              "memberId": "CBD9A71F-3F45-4727-8876-AECF9ED62405",
+              "plannedDays": 10.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "BEECA366-062D-45AF-944C-E3EB649DC2E5",
+      "name": "行程页SDK广告缓存逻辑调整",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-04-12",
+      "deliveryDate": "2026-05-20",
+      "workloadDate": "2026-04-12",
+      "workEndDate": "2026-04-19",
+      "workloadDays": 7.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "BEECA366-062D-45AF-944C-E3EB649DC2E5-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-04-12",
+          "endDate": "2026-04-12",
+          "assignments": []
+        },
+        {
+          "id": "BEECA366-062D-45AF-944C-E3EB649DC2E5-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-04-12",
+          "endDate": "2026-04-12",
+          "assignments": []
+        },
+        {
+          "id": "BEECA366-062D-45AF-944C-E3EB649DC2E5-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-04-12",
+          "endDate": "2026-04-19",
+          "assignments": [
+            {
+              "id": "BD2C2389-FAB7-49D4-BE7A-044C96BF4315",
+              "memberId": "13F60E13-401B-4B7F-A0A0-935EEB94529E",
+              "plannedDays": 7.0,
+              "actualDays": 0
+            },
+            {
+              "id": "04A7C6B0-E2B2-474E-9FDA-C3C462B631A3",
+              "memberId": "AB110749-6753-43C1-9FCF-63ABDBDC96C5",
+              "plannedDays": 7.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "BEECA366-062D-45AF-944C-E3EB649DC2E5-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-04-19",
+          "endDate": "2026-04-19",
+          "assignments": []
+        },
+        {
+          "id": "BEECA366-062D-45AF-944C-E3EB649DC2E5-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-04-19",
+          "endDate": "2026-05-20",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "20B0045C-DC58-4810-90CE-9BCA343B22AB",
+      "name": "司乘消息翻译能力",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-06-03",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-10",
+      "workloadDays": 3.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "20B0045C-DC58-4810-90CE-9BCA343B22AB-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "FC103B32-097F-41A5-996C-E5E860BDDE56",
+      "name": "OAK Git化管理",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-04-29",
+      "deliveryDate": "2026-06-17",
+      "workloadDate": "2026-04-29",
+      "workEndDate": "2026-05-19",
+      "workloadDays": 7.0,
+      "description": "",
+      "note": "",
+      "version": "618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "FC103B32-097F-41A5-996C-E5E860BDDE56-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-04-29",
+          "endDate": "2026-04-29",
+          "assignments": []
+        },
+        {
+          "id": "FC103B32-097F-41A5-996C-E5E860BDDE56-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-04-29",
+          "endDate": "2026-04-29",
+          "assignments": []
+        },
+        {
+          "id": "FC103B32-097F-41A5-996C-E5E860BDDE56-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-04-29",
+          "endDate": "2026-05-19",
+          "assignments": [
+            {
+              "id": "443C5173-9899-49B6-9117-567F8C395ED3",
+              "memberId": "13F60E13-401B-4B7F-A0A0-935EEB94529E",
+              "plannedDays": 7.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "FC103B32-097F-41A5-996C-E5E860BDDE56-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-19",
+          "endDate": "2026-05-19",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "A0944E6B-7C30-4021-A9B6-34E9AAD96D33",
+      "name": "广告曝光监测链接增加标识符参数",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-22",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-22",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "A0944E6B-7C30-4021-A9B6-34E9AAD96D33-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "41433874-ABFC-4B18-A691-AA8D4D0BE647",
+      "name": "GAM中介组接入pangle竞价渠道",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-18",
+      "deliveryDate": "2026-06-04",
+      "workloadDate": "2026-05-18",
+      "workEndDate": "2026-05-21",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-660029",
+      "phases": [
+        {
+          "id": "41433874-ABFC-4B18-A691-AA8D4D0BE647-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-18",
+          "assignments": []
+        },
+        {
+          "id": "41433874-ABFC-4B18-A691-AA8D4D0BE647-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-18",
+          "assignments": []
+        },
+        {
+          "id": "41433874-ABFC-4B18-A691-AA8D4D0BE647-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-21",
+          "assignments": [
+            {
+              "id": "257923B6-C91A-4335-BEA4-35700F227C97",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            },
+            {
+              "id": "2931820C-16CE-4D8E-ACC6-E9F702E2B7B9",
+              "memberId": "AB4F67B4-3C46-43FD-9A06-5448683C7C9C",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "A83AF856-4E7B-417B-B93E-74E8D46663B9",
+      "name": "Fusion性能监控上报",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-09",
+      "deliveryDate": "2026-05-23",
+      "workloadDate": "2026-05-09",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "A83AF856-4E7B-417B-B93E-74E8D46663B9-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-09",
+          "endDate": "2026-05-09",
+          "assignments": []
+        },
+        {
+          "id": "A83AF856-4E7B-417B-B93E-74E8D46663B9-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-09",
+          "endDate": "2026-05-09",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31",
+      "name": "世界杯icon替换",
+      "demandType": "业务需求",
+      "priority": "P0",
+      "businessDirection": "平台",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-05-21",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-08",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-672520",
+      "phases": [
+        {
+          "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": [
+            {
+              "id": "A9A7E77F-239E-4F71-884D-5D758B8F021F",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "207860EF-E5A7-4847-B899-F7864BBCB902",
+              "memberId": "AB110749-6753-43C1-9FCF-63ABDBDC96C5",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-21",
+          "assignments": []
+        },
+        {
+          "id": "490D3C52-CE3E-416F-90ED-79B6DD66DA31-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-21",
+          "endDate": "2026-05-21",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A",
+      "name": "【PRD】用户二次登录隐私协议免勾选链路改造",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-06",
+      "deliveryDate": "2026-05-21",
+      "workloadDate": "2026-05-06",
+      "workEndDate": "2026-05-06",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": []
+        },
+        {
+          "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": []
+        },
+        {
+          "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": [
+            {
+              "id": "19544839-33E6-4DD4-A59C-352191C39A15",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "87263BA5-A135-40A8-BD09-934141DD2EA1",
+              "memberId": "E26E4ADC-351E-4489-99E9-CAD989AE95CE",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": []
+        },
+        {
+          "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-21",
+          "assignments": []
+        },
+        {
+          "id": "13BFE132-A689-4315-9F45-E8746B1F0E2A-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-21",
+          "endDate": "2026-05-21",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "84AA45CD-B26C-48E1-889F-6210B5FBC7D6",
+      "name": "安全进线动线优化",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "安全",
+      "startDate": "2026-05-08",
+      "deliveryDate": "2026-06-04",
+      "workloadDate": "2026-05-08",
+      "workEndDate": "2026-05-14",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0604",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "84AA45CD-B26C-48E1-889F-6210B5FBC7D6-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "84AA45CD-B26C-48E1-889F-6210B5FBC7D6-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-08",
+          "assignments": []
+        },
+        {
+          "id": "84AA45CD-B26C-48E1-889F-6210B5FBC7D6-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-08",
+          "endDate": "2026-05-14",
+          "assignments": [
+            {
+              "id": "71F21062-BA99-41F5-95B3-F163E4F6AF86",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            },
+            {
+              "id": "0E767016-4929-4B45-9794-F46CC0CA9221",
+              "memberId": "267ECF6A-A53B-45EB-A989-7F59E564AEC2",
+              "plannedDays": 4.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "84AA45CD-B26C-48E1-889F-6210B5FBC7D6-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-14",
+          "endDate": "2026-05-14",
+          "assignments": [
+            {
+              "id": "71F21062-BA99-41F5-95B3-F163E4F6AF86-int",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "0E767016-4929-4B45-9794-F46CC0CA9221-int",
+              "memberId": "267ECF6A-A53B-45EB-A989-7F59E564AEC2",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "84AA45CD-B26C-48E1-889F-6210B5FBC7D6-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-14",
+          "endDate": "2026-06-04",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "98256B81-597C-4673-8017-F727052FCD71",
+      "name": "水滴push发单拦截流程补齐",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-09",
+      "deliveryDate": "2026-05-21",
+      "workloadDate": "2026-05-09",
+      "workEndDate": "2026-05-11",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "98256B81-597C-4673-8017-F727052FCD71-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-09",
+          "endDate": "2026-05-09",
+          "assignments": []
+        },
+        {
+          "id": "98256B81-597C-4673-8017-F727052FCD71-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-09",
+          "endDate": "2026-05-09",
+          "assignments": []
+        },
+        {
+          "id": "98256B81-597C-4673-8017-F727052FCD71-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-09",
+          "endDate": "2026-05-11",
+          "assignments": [
+            {
+              "id": "046CCDA4-8F18-44CA-9DBC-393AA208FB06",
+              "memberId": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            },
+            {
+              "id": "66E7D205-C756-43BF-812E-2C1DB296B4C4",
+              "memberId": "D50A2A33-417F-48EC-AF6A-47C7437DA8EE",
+              "plannedDays": 2.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065",
+      "name": "精确定位埋点",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-21",
+      "workloadDate": "2026-05-15",
+      "workEndDate": "2026-05-15",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": [
+            {
+              "id": "7ABC1E90-C33C-4D25-9FF5-6BE939C433D8",
+              "memberId": "2C89CF70-60A1-4925-8AF5-593F55207C84",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "EB427E6F-404C-4347-832F-81A094A13A77",
+              "memberId": "267ECF6A-A53B-45EB-A989-7F59E564AEC2",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-21",
+          "assignments": []
+        },
+        {
+          "id": "BBCB15AA-7C40-458E-89E4-5D37AB1E7065-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-21",
+          "endDate": "2026-05-21",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "C7FC506B-3084-4552-B8FD-C74AF290D7CC",
+      "name": "机场push通知-Android",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-11",
+      "deliveryDate": "2026-05-25",
+      "workloadDate": "2026-05-11",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "C7FC506B-3084-4552-B8FD-C74AF290D7CC-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "C7FC506B-3084-4552-B8FD-C74AF290D7CC-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-11",
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A",
+      "name": "用户二次登录隐私协议免勾选链路改造",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "平台",
+      "startDate": "2026-05-06",
+      "deliveryDate": "2026-05-25",
+      "workloadDate": "2026-05-06",
+      "workEndDate": "2026-05-06",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": []
+        },
+        {
+          "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": []
+        },
+        {
+          "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": [
+            {
+              "id": "59361EC7-338A-4F65-9BF4-FCEE1167DB3B",
+              "memberId": "B93B38F2-A367-4CE7-A0F4-863DE53D2EC6",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "2BD69F2C-FE51-46C6-BE37-0476ED339ED3",
+              "memberId": "E26E4ADC-351E-4489-99E9-CAD989AE95CE",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-06",
+          "assignments": []
+        },
+        {
+          "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-06",
+          "endDate": "2026-05-25",
+          "assignments": []
+        },
+        {
+          "id": "08B8948D-529C-40AC-867D-C11E5A6D4A6A-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-25",
+          "endDate": "2026-05-25",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "96B2F062-12A1-405C-B7EE-A03A927AAAF3",
+      "name": "订单页营销能力升级",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-11",
+      "deliveryDate": "2026-06-18",
+      "workloadDate": "2026-05-11",
+      "workEndDate": "2026-06-18",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "后端预计6月初介入",
+      "version": "",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-667469",
+      "phases": [
+        {
+          "id": "96B2F062-12A1-405C-B7EE-A03A927AAAF3-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-11",
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "791F018D-8816-4BAF-8576-B84B31D2687D",
+      "name": "Feed接入出行侧券提醒模版",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-11",
+      "deliveryDate": "2026-06-18",
+      "workloadDate": "2026-05-11",
+      "workEndDate": "2026-06-18",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "后端预计6月初介入",
+      "version": "",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-547599",
+      "phases": [
+        {
+          "id": "791F018D-8816-4BAF-8576-B84B31D2687D-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-11",
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0",
+      "name": "侧边栏新增实验",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-11",
+      "deliveryDate": "2026-05-21",
+      "workloadDate": "2026-05-11",
+      "workEndDate": "2026-05-12",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "0521",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-12",
+          "assignments": [
+            {
+              "id": "7066A4C5-5DEF-43A3-A4D3-58322B0A4643",
+              "memberId": "BB2BC9A5-506E-4502-B5F4-BD00BB156786",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            },
+            {
+              "id": "84B7BBA2-8AB6-49AF-8832-438EE12AC356",
+              "memberId": "706071B1-20DE-48E2-82DA-EEA5044A8D7B",
+              "plannedDays": 1.0,
+              "actualDays": 0
+            }
+          ]
+        },
+        {
+          "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0-联调中",
+          "name": "联调",
+          "stage": "联调中",
+          "startDate": "2026-05-12",
+          "endDate": "2026-05-12",
+          "assignments": []
+        },
+        {
+          "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0-测试中",
+          "name": "测试",
+          "stage": "测试中",
+          "startDate": "2026-05-12",
+          "endDate": "2026-05-21",
+          "assignments": []
+        },
+        {
+          "id": "A8F3FE87-EE5E-4F5F-833E-0ADC311737B0-已集成",
+          "name": "已集成",
+          "stage": "已集成",
+          "startDate": "2026-05-21",
+          "endDate": "2026-05-21",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "23826467-3473-46BE-B5B0-1E31970C7996",
+      "name": "全链路弱网提示",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "公共模块",
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "23826467-3473-46BE-B5B0-1E31970C7996-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-15",
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "14EC0F3F-EC82-4639-A943-07402CBAB917",
+      "name": "Owlmode卡顿改造",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "14EC0F3F-EC82-4639-A943-07402CBAB917-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-15",
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "71D99F11-2356-42A9-8F71-2E4E1BB40BF2",
+      "name": "Json异常解析&Flutter监控",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "71D99F11-2356-42A9-8F71-2E4E1BB40BF2-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "FD2E1F2C-D743-424C-B9F5-FB9132331F00",
+      "name": "SSL 司机乘客新增沟通偏好设置",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "SSL",
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "PRD：https://cooper.didichuxing.com/knowledge/2204291401492/2207251345848",
+      "version": "",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-670834?backUrl=/workbench/requirement",
+      "phases": [
+        {
+          "id": "FD2E1F2C-D743-424C-B9F5-FB9132331F00-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "FD2E1F2C-D743-424C-B9F5-FB9132331F00-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "14B82859-BB8F-4A5B-B8BF-83B596247BAE",
+      "name": "安全模式",
+      "demandType": "技术需求",
+      "priority": "P0",
+      "businessDirection": null,
+      "startDate": "2026-05-11",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-11",
+      "workEndDate": "2026-05-20",
+      "workloadDays": 8.0,
+      "description": "",
+      "note": "",
+      "version": "0618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "14B82859-BB8F-4A5B-B8BF-83B596247BAE-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "14B82859-BB8F-4A5B-B8BF-83B596247BAE-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-11",
+          "assignments": []
+        },
+        {
+          "id": "14B82859-BB8F-4A5B-B8BF-83B596247BAE-开发中",
+          "name": "开发",
+          "stage": "开发中",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-20",
+          "assignments": [
+            {
+              "id": "06270BAF-9326-403A-BB47-70F1179AC1FF",
+              "memberId": "AED1A4AE-8FE1-4042-A2F8-31607C95F3A6",
+              "plannedDays": 8.0,
+              "actualDays": 0
+            },
+            {
+              "id": "A984C64E-6CCA-473C-9F51-BD68299CC118",
+              "memberId": "E26E4ADC-351E-4489-99E9-CAD989AE95CE",
+              "plannedDays": 8.0,
+              "actualDays": 0
+            }
+          ]
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "0592C5CC-1863-4D91-B55F-3EB7AB01045A",
+      "name": "B2B注册&盗号风控能力建设",
+      "demandType": "业务需求",
+      "priority": "P0",
+      "businessDirection": "平台",
+      "startDate": "2026-05-25",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-25",
+      "workEndDate": "2026-06-01",
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "双端各4天，联调2天",
+      "version": "0618",
+      "ddp": "https://ddp.intra.xiaojukeji.com/requirement/story/R-IBG-666532?backUrl=/workbench/requirement",
+      "phases": [
+        {
+          "id": "0592C5CC-1863-4D91-B55F-3EB7AB01045A-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-25",
+          "endDate": "2026-05-25",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "6FEF8CBF-8A84-4F15-B297-ADCB9F77C87A",
+      "name": "iOS远程推送创建LiveActivity",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "增长",
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "6FEF8CBF-8A84-4F15-B297-ADCB9F77C87A-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "6FEF8CBF-8A84-4F15-B297-ADCB9F77C87A-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-15",
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "C08FC178-C5E3-41E2-A60A-C57596CA9832",
+      "name": "启动性能优化-首页地图加载延后",
+      "demandType": "技术需求",
+      "priority": "P1",
+      "businessDirection": null,
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "0519开始，预计2周",
+      "version": "0618",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "C08FC178-C5E3-41E2-A60A-C57596CA9832-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "C08FC178-C5E3-41E2-A60A-C57596CA9832-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": false,
+      "pooledAt": null,
+      "consumedAt": null,
+      "consumedBy": null
+    },
+    {
+      "id": "57CE2E66-D32C-44D9-AA42-FAFB65DA8955",
+      "name": "水滴支持优惠券能力",
+      "demandType": "业务需求",
+      "priority": "P1",
+      "businessDirection": "水滴",
+      "startDate": "2026-05-15",
+      "deliveryDate": "2026-05-29",
+      "workloadDate": "2026-05-15",
+      "workEndDate": null,
+      "workloadDays": 1.0,
+      "description": "",
+      "note": "",
+      "version": "",
+      "ddp": "",
+      "phases": [
+        {
+          "id": "57CE2E66-D32C-44D9-AA42-FAFB65DA8955-需求粗评",
+          "name": "需求粗评",
+          "stage": "需求粗评",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        },
+        {
+          "id": "57CE2E66-D32C-44D9-AA42-FAFB65DA8955-需求方案制定",
+          "name": "需求方案制定",
+          "stage": "需求方案制定",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15",
+          "assignments": []
+        }
+      ],
+      "inPool": true,
+      "pooledAt": "2026-05-15",
+      "consumedAt": null,
+      "consumedBy": null
+    }
+  ]
+}

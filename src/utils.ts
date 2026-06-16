@@ -1,6 +1,5 @@
 import type {
   Project,
-  ProjectPhase,
   TimelineBar,
   UtilizationRow,
   Member,
@@ -497,35 +496,45 @@ export function getCurrentStage(project: Project): StageType {
   return maxStage;
 }
 
-// ---- 消化统计 ----
+// ---- 交付统计 ----
 
 export function buildConsumptionStats(projects: Project[]) {
   const thisYear = new Date().getFullYear();
   const months = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
+
+  const DONE_STAGES = new Set<string>(["已上线", "已集成"]);
+  const delivered = projects.filter(
+    (p) => p.phases.some((ph) => DONE_STAGES.has(ph.stage))
+  );
 
   const monthlyStats = months.map((label, idx) => ({
     month: label,
     idx,
     count: 0,
     workload: 0,
+    projects: [] as Project[],
+    directionBreakdown: {} as Record<string, number>,
   }));
 
-  const consumed = projects.filter(
-    (p) => p.consumedAt && toDate(p.consumedAt).getFullYear() === thisYear
-  );
-
-  consumed.forEach((p) => {
-    const idx = toDate(p.consumedAt!).getMonth();
-    monthlyStats[idx].count += 1;
-    monthlyStats[idx].workload += p.workloadDays;
+  delivered.forEach((p) => {
+    const d = toDate(p.deliveryDate);
+    if (d.getFullYear() === thisYear) {
+      const idx = d.getMonth();
+      monthlyStats[idx].count += 1;
+      monthlyStats[idx].workload += p.workloadDays;
+      monthlyStats[idx].projects.push(p);
+      const dir = p.businessDirection ?? "技术需求";
+      monthlyStats[idx].directionBreakdown[dir] =
+        (monthlyStats[idx].directionBreakdown[dir] ?? 0) + p.workloadDays;
+    }
   });
 
-  const totalConsumed = consumed.length;
-  const totalWorkload = consumed.reduce((s, p) => s + p.workloadDays, 0);
-  const p0Consumed = consumed.filter((p) => p.priority === "P0").length;
+  const totalDelivered = delivered.length;
+  const totalWorkload = delivered.reduce((s, p) => s + p.workloadDays, 0);
+  const p0Delivered = delivered.filter((p) => p.priority === "P0").length;
   const maxMonthCount = Math.max(1, ...monthlyStats.map((m) => m.count));
 
-  return { monthlyStats, totalConsumed, totalWorkload, p0Consumed, maxMonthCount, consumed };
+  return { monthlyStats, totalDelivered, totalWorkload, p0Delivered, maxMonthCount, delivered };
 }
 
 // ---- 甘特图尺寸 ----

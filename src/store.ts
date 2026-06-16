@@ -389,6 +389,7 @@ export const useDataStore = create<DataStore>()((set, get) => ({
     if (get().readOnly) return;
     const id = createId("project");
     const today = toIsoDate(new Date());
+    // 新建需求默认无 owner 且无版本号，直接进需求池
     const newProject: Project = {
       id,
       name: demandType === "业务需求" ? "新业务需求" : "新技术需求",
@@ -408,8 +409,8 @@ export const useDataStore = create<DataStore>()((set, get) => ({
       ddp: "",
       phases: [{ id: createId("phase"), name: "需求粗评", stage: "需求粗评", startDate: today, endDate: today, assignments: [] }],
       owner: null,
-      inPool: false,
-      pooledAt: null,
+      inPool: true,
+      pooledAt: today,
       consumedAt: null,
       consumedBy: null,
     };

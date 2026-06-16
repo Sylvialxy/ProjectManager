@@ -65,8 +65,12 @@ export default function DemandPool() {
             {poolProjects.map((project) => (
               <div
                 key={project.id}
+                role="button"
+                tabIndex={0}
+                onClick={() => setModalId(project.id)}
+                onKeyDown={(e) => e.key === "Enter" && setModalId(project.id)}
                 className={cn(
-                  "rounded-2xl border p-4 transition",
+                  "cursor-pointer rounded-2xl border p-4 transition hover:brightness-110",
                   project.priority === "P0" ? "border-rose-500/30 bg-rose-500/5" : "border-white/10 bg-white/5"
                 )}
               >
@@ -85,10 +89,7 @@ export default function DemandPool() {
                         </span>
                       )}
                     </div>
-                    <button type="button" onClick={() => setModalId(project.id)}
-                      className="mt-2 text-left font-medium text-white hover:text-sky-300 transition">
-                      {project.name}
-                    </button>
+                    <div className="mt-2 font-medium text-white">{project.name}</div>
                     {project.description && (
                       <div className="mt-1 text-xs text-slate-400">{project.description}</div>
                     )}
@@ -99,7 +100,7 @@ export default function DemandPool() {
                     </div>
                   </div>
 
-                  <div className="flex shrink-0 flex-col gap-2">
+                  <div className="flex shrink-0 flex-col gap-2" onClick={(e) => e.stopPropagation()}>
                     {consumingId === project.id ? (
                       <div className="flex flex-col gap-2">
                         <select

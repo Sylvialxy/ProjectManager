@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Crown, Edit2, ExternalLink, Plus, Save, Trash2, X, XCircle } from "lucide-react";
+import { ArrowRight, Crown, Edit2, ExternalLink, Plus, Save, Trash2, X, XCircle } from "lucide-react";
 import { useDataStore } from "@/store";
 import { cn } from "@/lib/utils";
 import {
@@ -7,6 +7,7 @@ import {
   formatDayValue,
   getCurrentStage,
   getMissingPhaseDates,
+  getNextStage,
   getPriorityTone,
   getStageTone,
   toIsoDate,
@@ -28,7 +29,7 @@ const STAGE_ORDER: StageType[] = [
 export default function ProjectDetailModal({ project, onClose, initialEditing, onDiscard }: Props) {
   const data = useDataStore((s) => s.data);
   const readOnly = useDataStore((s) => s.readOnly);
-  const { updateProject } = useDataStore();
+  const { updateProject, advanceStage } = useDataStore();
 
   const [isEditing, setIsEditing] = useState(initialEditing ?? false);
   const [hasSaved, setHasSaved] = useState(false);
@@ -131,6 +132,14 @@ export default function ProjectDetailModal({ project, onClose, initialEditing, o
   const currentStage = getCurrentStage(p);
   const currentStageIdx = STAGE_ORDER.indexOf(currentStage);
   const missingDates = getMissingPhaseDates(p);
+
+  const nextStage = getNextStage(currentStage);
+  const REQUIRES_MANPOWER = new Set<StageType>(["开发中", "联调中"]);
+  const hasManpower = p.phases
+    .filter((ph) => ph.stage === currentStage)
+    .some((ph) => ph.assignments.length > 0);
+  const canQuickAdvance = !REQUIRES_MANPOWER.has(currentStage) || hasManpower;
+
   const totalPlanned = p.phases.reduce(
     (s, ph) => s + ph.assignments.reduce((ss, a) => ss + a.plannedDays, 0), 0
   );
@@ -228,6 +237,26 @@ export default function ProjectDetailModal({ project, onClose, initialEditing, o
               ))}
             </div>
           </div>
+
+          {/* 快捷流转 */}
+          {!effectiveEditing && !readOnly && nextStage && (
+            <div className="flex items-center gap-3">
+              {canQuickAdvance ? (
+                <button
+                  type="button"
+                  onClick={() => advanceStage(project.id)}
+                  className="inline-flex items-center gap-1.5 rounded-2xl border border-sky-500/30 bg-sky-500/10 px-4 py-2 text-sm text-sky-200 transition hover:bg-sky-500/20"
+                >
+                  流转至 {nextStage} <ArrowRight className="h-3.5 w-3.5" />
+                </button>
+              ) : (
+                <div className="inline-flex items-center gap-1.5 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-500 cursor-not-allowed">
+                  流转至 {nextStage} <ArrowRight className="h-3.5 w-3.5" />
+                  <span className="ml-1 text-xs text-amber-400">需先填写人力投入</span>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* 缺少阶段排期警告 */}
           {missingDates.length > 0 && (

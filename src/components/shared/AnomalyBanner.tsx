@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, ChevronUp, X } from "lucide-react";
 import { useDataStore } from "@/store";
 import { cn } from "@/lib/utils";
 import { isAnomalous, getCurrentStage, getNextStage, getMissingPhaseDates } from "@/utils";
+import ProjectDetailModal from "@/components/shared/ProjectDetailModal";
 
 export default function AnomalyBanner() {
   const data = useDataStore((s) => s.data);
@@ -12,10 +13,13 @@ export default function AnomalyBanner() {
 
   const [dismissed, setDismissed] = useState(false);
   const [expanded, setExpanded] = useState(true);
-  // projectId → confirm pending
   const [confirmId, setConfirmId] = useState<string | null>(null);
-  // track which ones just advanced this session
   const [advanced, setAdvanced] = useState<Set<string>>(new Set());
+  const [modalId, setModalId] = useState<string | null>(null);
+  const modalProject = useMemo(
+    () => (modalId ? data.projects.find((p) => p.id === modalId) ?? null : null),
+    [modalId, data.projects]
+  );
 
   if (anomalous.length === 0 || dismissed) return null;
 
@@ -29,6 +33,10 @@ export default function AnomalyBanner() {
   }
 
   return (
+    <>
+    {modalProject && (
+      <ProjectDetailModal project={modalProject} onClose={() => setModalId(null)} />
+    )}
     <div className="rounded-3xl border border-amber-500/30 bg-amber-500/10 p-4">
       {/* Header */}
       <div className="flex items-center justify-between gap-3">
@@ -63,8 +71,12 @@ export default function AnomalyBanner() {
 
             return (
               <div key={project.id}
+                role="button"
+                tabIndex={0}
+                onClick={() => setModalId(project.id)}
+                onKeyDown={(e) => e.key === "Enter" && setModalId(project.id)}
                 className={cn(
-                  "rounded-2xl border p-3 transition",
+                  "cursor-pointer rounded-2xl border p-3 transition hover:brightness-110",
                   project.priority === "P0"
                     ? "border-rose-500/30 bg-rose-500/5"
                     : "border-amber-500/20 bg-amber-500/5"
@@ -100,7 +112,7 @@ export default function AnomalyBanner() {
                     )}
                   </div>
 
-                  <div className="flex shrink-0 gap-2">
+                  <div className="flex shrink-0 gap-2" onClick={(e) => e.stopPropagation()}>
                     {isConfirming ? (
                       <>
                         <button type="button" onClick={() => handleAdvance(project.id)}
@@ -128,5 +140,6 @@ export default function AnomalyBanner() {
         </div>
       )}
     </div>
+    </>
   );
 }

@@ -32,6 +32,17 @@ class TeamProjectManagerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "already exists"):
             self.manager.create_project("Deploy", "Ops")
 
+    def test_projects_for_member_handles_empty_and_sorted_results(self) -> None:
+        self.manager.create_team("Platform", members=["A", "B"])
+        self.manager.create_project("Zeta", "Platform")
+        self.manager.create_project("Alpha", "Platform")
+
+        self.assertEqual([], self.manager.projects_for_member("B"))
+
+        self.manager.assign_member_to_project("A", "Zeta")
+        self.manager.assign_member_to_project("A", "Alpha")
+        self.assertEqual(["Alpha", "Zeta"], self.manager.projects_for_member("A"))
+
 
 if __name__ == "__main__":
     unittest.main()

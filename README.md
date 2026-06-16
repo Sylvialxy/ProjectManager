@@ -1,6 +1,6 @@
 # ProjectManager
 
-A lightweight Python implementation for 团队项目管理 (team project management).
+A lightweight Python implementation for team project management.
 
 ## Features
 

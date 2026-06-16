@@ -40,9 +40,7 @@ class TeamProjectManager:
         if project is None:
             raise ValueError(f"Project '{project_name}' does not exist.")
 
-        team = self._teams.get(project.team_name)
-        if team is None:
-            raise ValueError(f"Team '{project.team_name}' does not exist.")
+        team = self._teams[project.team_name]
 
         if member_name not in team.members:
             raise ValueError(

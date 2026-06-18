@@ -512,9 +512,21 @@ export function buildConsumptionStats(projects: Project[]) {
     idx,
     count: 0,
     workload: 0,
+    p0Count: 0,
+    p1Count: 0,
+    totalPlanned: 0,
     projects: [] as Project[],
     directionBreakdown: {} as Record<string, number>,
   }));
+
+  const versionMap = new Map<string, {
+    count: number;
+    p0Count: number;
+    p1Count: number;
+    workload: number;
+    totalPlanned: number;
+    projects: Project[];
+  }>();
 
   delivered.forEach((p) => {
     const d = toDate(p.deliveryDate);
@@ -523,18 +535,61 @@ export function buildConsumptionStats(projects: Project[]) {
       monthlyStats[idx].count += 1;
       monthlyStats[idx].workload += p.workloadDays;
       monthlyStats[idx].projects.push(p);
+      if (p.priority === "P0") monthlyStats[idx].p0Count += 1;
+      else monthlyStats[idx].p1Count += 1;
+      // 实际分配人天；无分配则用估算工作量兜底
+      const assignPlanned = p.phases
+        .flatMap((ph) => ph.assignments)
+        .reduce((s, a) => s + a.plannedDays, 0);
+      monthlyStats[idx].totalPlanned += assignPlanned > 0 ? assignPlanned : p.workloadDays;
       const dir = p.businessDirection ?? "技术需求";
       monthlyStats[idx].directionBreakdown[dir] =
         (monthlyStats[idx].directionBreakdown[dir] ?? 0) + p.workloadDays;
+
+      // 版本维度聚合
+      const version = p.version.trim() || "未指定版本";
+      if (!versionMap.has(version)) {
+        versionMap.set(version, { count: 0, p0Count: 0, p1Count: 0, workload: 0, totalPlanned: 0, projects: [] });
+      }
+      const v = versionMap.get(version)!;
+      v.count += 1;
+      if (p.priority === "P0") v.p0Count += 1;
+      else v.p1Count += 1;
+      v.workload += p.workloadDays;
+      v.totalPlanned += assignPlanned > 0 ? assignPlanned : p.workloadDays;
+      v.projects.push(p);
     }
   });
+
+  const versionStats = [...versionMap.entries()]
+    .map(([version, vd]) => ({
+      version,
+      count: vd.count,
+      p0Count: vd.p0Count,
+      p1Count: vd.p1Count,
+      workload: vd.workload,
+      avgPlanned: vd.count > 0 ? vd.totalPlanned / vd.count : 0,
+      projects: vd.projects,
+    }))
+    .sort((a, b) => a.version.localeCompare(b.version));
 
   const totalDelivered = delivered.length;
   const totalWorkload = delivered.reduce((s, p) => s + p.workloadDays, 0);
   const p0Delivered = delivered.filter((p) => p.priority === "P0").length;
   const maxMonthCount = Math.max(1, ...monthlyStats.map((m) => m.count));
 
-  return { monthlyStats, totalDelivered, totalWorkload, p0Delivered, maxMonthCount, delivered };
+  return {
+    monthlyStats: monthlyStats.map((m) => ({
+      ...m,
+      avgPlanned: m.count > 0 ? m.totalPlanned / m.count : 0,
+    })),
+    versionStats,
+    totalDelivered,
+    totalWorkload,
+    p0Delivered,
+    maxMonthCount,
+    delivered,
+  };
 }
 
 // ---- 甘特图尺寸 ----

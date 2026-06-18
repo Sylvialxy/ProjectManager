@@ -5,6 +5,9 @@ import EmptyState from "@/components/shared/EmptyState";
 import ProjectDetailModal from "@/components/shared/ProjectDetailModal";
 import { cn } from "@/lib/utils";
 import { formatDayValue, getPriorityTone, toDate, sortProjects } from "@/utils";
+import type { StageType } from "@/types";
+
+const DEV_AND_LATER_STAGES = new Set<StageType>(["开发中", "联调中", "测试中", "已集成", "已上线"]);
 
 export default function DemandPool() {
   const data = useDataStore((s) => s.data);
@@ -22,7 +25,13 @@ export default function DemandPool() {
 
   const poolProjects = useMemo(() => {
     return data.projects
-      .filter((p) => p.inPool && !p.consumedAt)
+      .filter((p) => {
+        if (!p.inPool || p.consumedAt) return false;
+        // 已安排人力（任一阶段存在分配）或已进入开发中及以后，则移出需求池
+        const hasAssignment = p.phases.some((ph) => ph.assignments.length > 0);
+        const hasDevStage = p.phases.some((ph) => DEV_AND_LATER_STAGES.has(ph.stage));
+        return !hasAssignment && !hasDevStage;
+      })
       .sort((a, b) => {
         if (a.priority !== b.priority) return a.priority === "P0" ? -1 : 1;
         return toDate(a.pooledAt ?? a.workloadDate).getTime() - toDate(b.pooledAt ?? b.workloadDate).getTime();
